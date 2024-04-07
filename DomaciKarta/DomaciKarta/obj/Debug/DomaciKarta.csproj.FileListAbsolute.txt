@@ -1,0 +1,7 @@
+C:\Users\gorce\source\repos\DomaciKarta\DomaciKarta\bin\Debug\DomaciKarta.exe.config
+C:\Users\gorce\source\repos\DomaciKarta\DomaciKarta\bin\Debug\DomaciKarta.exe
+C:\Users\gorce\source\repos\DomaciKarta\DomaciKarta\bin\Debug\DomaciKarta.pdb
+C:\Users\gorce\source\repos\DomaciKarta\DomaciKarta\obj\Debug\DomaciKarta.csproj.AssemblyReference.cache
+C:\Users\gorce\source\repos\DomaciKarta\DomaciKarta\obj\Debug\DomaciKarta.csproj.CoreCompileInputs.cache
+C:\Users\gorce\source\repos\DomaciKarta\DomaciKarta\obj\Debug\DomaciKarta.exe
+C:\Users\gorce\source\repos\DomaciKarta\DomaciKarta\obj\Debug\DomaciKarta.pdb

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34018.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vezbe2OOP2", "Vezbe2OOP2\Vezbe2OOP2.csproj", "{DCA11C8D-93B9-479E-AD6F-1ECD54FA0CD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadatak2", "Zadatak2\Zadatak2.csproj", "{AE94B9B4-F17F-49C8-8E61-32C92969EEB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCA11C8D-93B9-479E-AD6F-1ECD54FA0CD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCA11C8D-93B9-479E-AD6F-1ECD54FA0CD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCA11C8D-93B9-479E-AD6F-1ECD54FA0CD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCA11C8D-93B9-479E-AD6F-1ECD54FA0CD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE94B9B4-F17F-49C8-8E61-32C92969EEB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE94B9B4-F17F-49C8-8E61-32C92969EEB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE94B9B4-F17F-49C8-8E61-32C92969EEB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE94B9B4-F17F-49C8-8E61-32C92969EEB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED7A9E60-382C-4120-A5D2-05332CC1ACE0}
+	EndGlobalSection
+EndGlobal

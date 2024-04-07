@@ -1,0 +1,7 @@
+C:\Users\gorce\source\repos\Domaci1\Domaci1\bin\Debug\Domaci1.exe.config
+C:\Users\gorce\source\repos\Domaci1\Domaci1\bin\Debug\Domaci1.exe
+C:\Users\gorce\source\repos\Domaci1\Domaci1\bin\Debug\Domaci1.pdb
+C:\Users\gorce\source\repos\Domaci1\Domaci1\obj\Debug\Domaci1.csproj.AssemblyReference.cache
+C:\Users\gorce\source\repos\Domaci1\Domaci1\obj\Debug\Domaci1.csproj.CoreCompileInputs.cache
+C:\Users\gorce\source\repos\Domaci1\Domaci1\obj\Debug\Domaci1.exe
+C:\Users\gorce\source\repos\Domaci1\Domaci1\obj\Debug\Domaci1.pdb

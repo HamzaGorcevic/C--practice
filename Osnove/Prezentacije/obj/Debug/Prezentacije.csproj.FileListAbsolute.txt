@@ -1,0 +1,7 @@
+C:\Users\gorce\source\repos\Osnove\Prezentacije\bin\Debug\Prezentacije.exe.config
+C:\Users\gorce\source\repos\Osnove\Prezentacije\bin\Debug\Prezentacije.exe
+C:\Users\gorce\source\repos\Osnove\Prezentacije\bin\Debug\Prezentacije.pdb
+C:\Users\gorce\source\repos\Osnove\Prezentacije\obj\Debug\Prezentacije.csproj.AssemblyReference.cache
+C:\Users\gorce\source\repos\Osnove\Prezentacije\obj\Debug\Prezentacije.csproj.CoreCompileInputs.cache
+C:\Users\gorce\source\repos\Osnove\Prezentacije\obj\Debug\Prezentacije.exe
+C:\Users\gorce\source\repos\Osnove\Prezentacije\obj\Debug\Prezentacije.pdb

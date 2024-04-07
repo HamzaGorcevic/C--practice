@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34018.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Osnove", "Osnove\Osnove.csproj", "{98DA29D8-8548-44EB-BCCB-1A4CC3A23DF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{57F4CE5C-428D-4554-BCE0-0256E7C0913E}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prezentacije", "Prezentacije\Prezentacije.csproj", "{E3BF8A19-9B33-4D2A-82A0-DE0240EEB11C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98DA29D8-8548-44EB-BCCB-1A4CC3A23DF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98DA29D8-8548-44EB-BCCB-1A4CC3A23DF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98DA29D8-8548-44EB-BCCB-1A4CC3A23DF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98DA29D8-8548-44EB-BCCB-1A4CC3A23DF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3BF8A19-9B33-4D2A-82A0-DE0240EEB11C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3BF8A19-9B33-4D2A-82A0-DE0240EEB11C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3BF8A19-9B33-4D2A-82A0-DE0240EEB11C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3BF8A19-9B33-4D2A-82A0-DE0240EEB11C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4731C582-88E1-4653-9F00-F89A37DB6138}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,7 @@
+C:\Users\gorce\source\repos\Osnove\Osnove\obj\Debug\Osnove.csproj.AssemblyReference.cache
+C:\Users\gorce\source\repos\Osnove\Osnove\obj\Debug\Osnove.csproj.CoreCompileInputs.cache
+C:\Users\gorce\source\repos\Osnove\Osnove\bin\Debug\Osnove.exe.config
+C:\Users\gorce\source\repos\Osnove\Osnove\bin\Debug\Osnove.exe
+C:\Users\gorce\source\repos\Osnove\Osnove\bin\Debug\Osnove.pdb
+C:\Users\gorce\source\repos\Osnove\Osnove\obj\Debug\Osnove.exe
+C:\Users\gorce\source\repos\Osnove\Osnove\obj\Debug\Osnove.pdb

@@ -1,0 +1,15 @@
+C:\Users\gorce\source\repos\PrvaGuiVezba\DrugeVezbeWPF\bin\Debug\DrugeVezbeWPF.exe.config
+C:\Users\gorce\source\repos\PrvaGuiVezba\DrugeVezbeWPF\bin\Debug\DrugeVezbeWPF.exe
+C:\Users\gorce\source\repos\PrvaGuiVezba\DrugeVezbeWPF\bin\Debug\DrugeVezbeWPF.pdb
+C:\Users\gorce\source\repos\PrvaGuiVezba\DrugeVezbeWPF\obj\Debug\DrugeVezbeWPF.csproj.AssemblyReference.cache
+C:\Users\gorce\source\repos\PrvaGuiVezba\DrugeVezbeWPF\obj\Debug\MainWindow.g.cs
+C:\Users\gorce\source\repos\PrvaGuiVezba\DrugeVezbeWPF\obj\Debug\App.g.cs
+C:\Users\gorce\source\repos\PrvaGuiVezba\DrugeVezbeWPF\obj\Debug\DrugeVezbeWPF_MarkupCompile.cache
+C:\Users\gorce\source\repos\PrvaGuiVezba\DrugeVezbeWPF\obj\Debug\DrugeVezbeWPF_MarkupCompile.lref
+C:\Users\gorce\source\repos\PrvaGuiVezba\DrugeVezbeWPF\obj\Debug\MainWindow.baml
+C:\Users\gorce\source\repos\PrvaGuiVezba\DrugeVezbeWPF\obj\Debug\DrugeVezbeWPF.g.resources
+C:\Users\gorce\source\repos\PrvaGuiVezba\DrugeVezbeWPF\obj\Debug\DrugeVezbeWPF.Properties.Resources.resources
+C:\Users\gorce\source\repos\PrvaGuiVezba\DrugeVezbeWPF\obj\Debug\DrugeVezbeWPF.csproj.GenerateResource.cache
+C:\Users\gorce\source\repos\PrvaGuiVezba\DrugeVezbeWPF\obj\Debug\DrugeVezbeWPF.csproj.CoreCompileInputs.cache
+C:\Users\gorce\source\repos\PrvaGuiVezba\DrugeVezbeWPF\obj\Debug\DrugeVezbeWPF.exe
+C:\Users\gorce\source\repos\PrvaGuiVezba\DrugeVezbeWPF\obj\Debug\DrugeVezbeWPF.pdb

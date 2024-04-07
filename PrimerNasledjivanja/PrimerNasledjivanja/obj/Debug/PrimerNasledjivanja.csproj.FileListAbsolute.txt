@@ -1,0 +1,7 @@
+C:\Users\gorce\source\repos\PrimerNasledjivanja\PrimerNasledjivanja\bin\Debug\PrimerNasledjivanja.exe.config
+C:\Users\gorce\source\repos\PrimerNasledjivanja\PrimerNasledjivanja\bin\Debug\PrimerNasledjivanja.exe
+C:\Users\gorce\source\repos\PrimerNasledjivanja\PrimerNasledjivanja\bin\Debug\PrimerNasledjivanja.pdb
+C:\Users\gorce\source\repos\PrimerNasledjivanja\PrimerNasledjivanja\obj\Debug\PrimerNasledjivanja.csproj.AssemblyReference.cache
+C:\Users\gorce\source\repos\PrimerNasledjivanja\PrimerNasledjivanja\obj\Debug\PrimerNasledjivanja.csproj.CoreCompileInputs.cache
+C:\Users\gorce\source\repos\PrimerNasledjivanja\PrimerNasledjivanja\obj\Debug\PrimerNasledjivanja.exe
+C:\Users\gorce\source\repos\PrimerNasledjivanja\PrimerNasledjivanja\obj\Debug\PrimerNasledjivanja.pdb

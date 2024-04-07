@@ -1,0 +1,7 @@
+C:\Users\gorce\source\repos\vezbe2 OOP@\vezbe2 OOP@\bin\Debug\vezbe2 OOP@.exe.config
+C:\Users\gorce\source\repos\vezbe2 OOP@\vezbe2 OOP@\bin\Debug\vezbe2 OOP@.exe
+C:\Users\gorce\source\repos\vezbe2 OOP@\vezbe2 OOP@\bin\Debug\vezbe2 OOP@.pdb
+C:\Users\gorce\source\repos\vezbe2 OOP@\vezbe2 OOP@\obj\Debug\vezbe2 OOP@.csproj.AssemblyReference.cache
+C:\Users\gorce\source\repos\vezbe2 OOP@\vezbe2 OOP@\obj\Debug\vezbe2 OOP@.csproj.CoreCompileInputs.cache
+C:\Users\gorce\source\repos\vezbe2 OOP@\vezbe2 OOP@\obj\Debug\vezbe2 OOP@.exe
+C:\Users\gorce\source\repos\vezbe2 OOP@\vezbe2 OOP@\obj\Debug\vezbe2 OOP@.pdb

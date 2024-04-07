@@ -1,0 +1,15 @@
+C:\Users\gorce\source\repos\PrvaGuiVezba\PrvaGuiVezba\bin\Debug\PrvaGuiVezba.exe.config
+C:\Users\gorce\source\repos\PrvaGuiVezba\PrvaGuiVezba\bin\Debug\PrvaGuiVezba.exe
+C:\Users\gorce\source\repos\PrvaGuiVezba\PrvaGuiVezba\bin\Debug\PrvaGuiVezba.pdb
+C:\Users\gorce\source\repos\PrvaGuiVezba\PrvaGuiVezba\obj\Debug\PrvaGuiVezba.csproj.AssemblyReference.cache
+C:\Users\gorce\source\repos\PrvaGuiVezba\PrvaGuiVezba\obj\Debug\MainWindow.g.cs
+C:\Users\gorce\source\repos\PrvaGuiVezba\PrvaGuiVezba\obj\Debug\App.g.cs
+C:\Users\gorce\source\repos\PrvaGuiVezba\PrvaGuiVezba\obj\Debug\PrvaGuiVezba_MarkupCompile.cache
+C:\Users\gorce\source\repos\PrvaGuiVezba\PrvaGuiVezba\obj\Debug\PrvaGuiVezba_MarkupCompile.lref
+C:\Users\gorce\source\repos\PrvaGuiVezba\PrvaGuiVezba\obj\Debug\MainWindow.baml
+C:\Users\gorce\source\repos\PrvaGuiVezba\PrvaGuiVezba\obj\Debug\PrvaGuiVezba.g.resources
+C:\Users\gorce\source\repos\PrvaGuiVezba\PrvaGuiVezba\obj\Debug\PrvaGuiVezba.Properties.Resources.resources
+C:\Users\gorce\source\repos\PrvaGuiVezba\PrvaGuiVezba\obj\Debug\PrvaGuiVezba.csproj.GenerateResource.cache
+C:\Users\gorce\source\repos\PrvaGuiVezba\PrvaGuiVezba\obj\Debug\PrvaGuiVezba.csproj.CoreCompileInputs.cache
+C:\Users\gorce\source\repos\PrvaGuiVezba\PrvaGuiVezba\obj\Debug\PrvaGuiVezba.exe
+C:\Users\gorce\source\repos\PrvaGuiVezba\PrvaGuiVezba\obj\Debug\PrvaGuiVezba.pdb

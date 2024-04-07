@@ -1,0 +1,4 @@
+C:\Users\gorce\source\repos\OOP2 vezbe 2\OOP2 vezbe 2\obj\Debug\net6.0\OOP2 vezbe 2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gorce\source\repos\OOP2 vezbe 2\OOP2 vezbe 2\obj\Debug\net6.0\OOP2 vezbe 2.AssemblyInfoInputs.cache
+C:\Users\gorce\source\repos\OOP2 vezbe 2\OOP2 vezbe 2\obj\Debug\net6.0\OOP2 vezbe 2.AssemblyInfo.cs
+C:\Users\gorce\source\repos\OOP2 vezbe 2\OOP2 vezbe 2\obj\Debug\net6.0\OOP2 vezbe 2.csproj.CoreCompileInputs.cache

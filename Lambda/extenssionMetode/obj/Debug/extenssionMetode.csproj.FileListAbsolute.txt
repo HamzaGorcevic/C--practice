@@ -1,0 +1,7 @@
+C:\Users\gorce\source\repos\Lambda\extenssionMetode\obj\Debug\extenssionMetode.csproj.AssemblyReference.cache
+C:\Users\gorce\source\repos\Lambda\extenssionMetode\obj\Debug\extenssionMetode.csproj.CoreCompileInputs.cache
+C:\Users\gorce\source\repos\Lambda\extenssionMetode\bin\Debug\extenssionMetode.exe.config
+C:\Users\gorce\source\repos\Lambda\extenssionMetode\bin\Debug\extenssionMetode.exe
+C:\Users\gorce\source\repos\Lambda\extenssionMetode\bin\Debug\extenssionMetode.pdb
+C:\Users\gorce\source\repos\Lambda\extenssionMetode\obj\Debug\extenssionMetode.exe
+C:\Users\gorce\source\repos\Lambda\extenssionMetode\obj\Debug\extenssionMetode.pdb

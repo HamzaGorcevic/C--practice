@@ -1,0 +1,7 @@
+C:\Users\gorce\source\repos\Lambda\Lambda\bin\Debug\Lambda.exe.config
+C:\Users\gorce\source\repos\Lambda\Lambda\bin\Debug\Lambda.exe
+C:\Users\gorce\source\repos\Lambda\Lambda\bin\Debug\Lambda.pdb
+C:\Users\gorce\source\repos\Lambda\Lambda\obj\Debug\Lambda.csproj.AssemblyReference.cache
+C:\Users\gorce\source\repos\Lambda\Lambda\obj\Debug\Lambda.csproj.CoreCompileInputs.cache
+C:\Users\gorce\source\repos\Lambda\Lambda\obj\Debug\Lambda.exe
+C:\Users\gorce\source\repos\Lambda\Lambda\obj\Debug\Lambda.pdb

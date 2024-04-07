@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34018.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomaciKarta", "DomaciKarta\DomaciKarta.csproj", "{40BD00CF-4FB0-49F0-B0E1-38F4BEA4DDCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40BD00CF-4FB0-49F0-B0E1-38F4BEA4DDCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40BD00CF-4FB0-49F0-B0E1-38F4BEA4DDCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40BD00CF-4FB0-49F0-B0E1-38F4BEA4DDCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40BD00CF-4FB0-49F0-B0E1-38F4BEA4DDCD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89E347E2-CD0D-40A7-86F9-59C7A86C6D64}
+	EndGlobalSection
+EndGlobal

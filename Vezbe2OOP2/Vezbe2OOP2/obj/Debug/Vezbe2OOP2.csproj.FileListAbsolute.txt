@@ -1,0 +1,15 @@
+C:\Users\gorce\source\repos\Vezbe2OOP2\Vezbe2OOP2\bin\Debug\Vezbe2OOP2.exe.config
+C:\Users\gorce\source\repos\Vezbe2OOP2\Vezbe2OOP2\bin\Debug\Vezbe2OOP2.exe
+C:\Users\gorce\source\repos\Vezbe2OOP2\Vezbe2OOP2\bin\Debug\Vezbe2OOP2.pdb
+C:\Users\gorce\source\repos\Vezbe2OOP2\Vezbe2OOP2\obj\Debug\Vezbe2OOP2.csproj.AssemblyReference.cache
+C:\Users\gorce\source\repos\Vezbe2OOP2\Vezbe2OOP2\obj\Debug\MainWindow.g.cs
+C:\Users\gorce\source\repos\Vezbe2OOP2\Vezbe2OOP2\obj\Debug\App.g.cs
+C:\Users\gorce\source\repos\Vezbe2OOP2\Vezbe2OOP2\obj\Debug\Vezbe2OOP2_MarkupCompile.cache
+C:\Users\gorce\source\repos\Vezbe2OOP2\Vezbe2OOP2\obj\Debug\Vezbe2OOP2_MarkupCompile.lref
+C:\Users\gorce\source\repos\Vezbe2OOP2\Vezbe2OOP2\obj\Debug\MainWindow.baml
+C:\Users\gorce\source\repos\Vezbe2OOP2\Vezbe2OOP2\obj\Debug\Vezbe2OOP2.g.resources
+C:\Users\gorce\source\repos\Vezbe2OOP2\Vezbe2OOP2\obj\Debug\Vezbe2OOP2.Properties.Resources.resources
+C:\Users\gorce\source\repos\Vezbe2OOP2\Vezbe2OOP2\obj\Debug\Vezbe2OOP2.csproj.GenerateResource.cache
+C:\Users\gorce\source\repos\Vezbe2OOP2\Vezbe2OOP2\obj\Debug\Vezbe2OOP2.csproj.CoreCompileInputs.cache
+C:\Users\gorce\source\repos\Vezbe2OOP2\Vezbe2OOP2\obj\Debug\Vezbe2OOP2.exe
+C:\Users\gorce\source\repos\Vezbe2OOP2\Vezbe2OOP2\obj\Debug\Vezbe2OOP2.pdb

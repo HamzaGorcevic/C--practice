@@ -1,0 +1,7 @@
+C:\Users\gorce\source\repos\Lambda\ProductZadatak\bin\Debug\ProductZadatak.exe.config
+C:\Users\gorce\source\repos\Lambda\ProductZadatak\bin\Debug\ProductZadatak.exe
+C:\Users\gorce\source\repos\Lambda\ProductZadatak\bin\Debug\ProductZadatak.pdb
+C:\Users\gorce\source\repos\Lambda\ProductZadatak\obj\Debug\ProductZadatak.csproj.AssemblyReference.cache
+C:\Users\gorce\source\repos\Lambda\ProductZadatak\obj\Debug\ProductZadatak.csproj.CoreCompileInputs.cache
+C:\Users\gorce\source\repos\Lambda\ProductZadatak\obj\Debug\ProductZadatak.exe
+C:\Users\gorce\source\repos\Lambda\ProductZadatak\obj\Debug\ProductZadatak.pdb

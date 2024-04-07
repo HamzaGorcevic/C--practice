@@ -1,0 +1,7 @@
+C:\Users\gorce\source\repos\Lambda\LinQ\bin\Debug\LinQ.exe.config
+C:\Users\gorce\source\repos\Lambda\LinQ\bin\Debug\LinQ.exe
+C:\Users\gorce\source\repos\Lambda\LinQ\bin\Debug\LinQ.pdb
+C:\Users\gorce\source\repos\Lambda\LinQ\obj\Debug\LinQ.csproj.AssemblyReference.cache
+C:\Users\gorce\source\repos\Lambda\LinQ\obj\Debug\LinQ.csproj.CoreCompileInputs.cache
+C:\Users\gorce\source\repos\Lambda\LinQ\obj\Debug\LinQ.exe
+C:\Users\gorce\source\repos\Lambda\LinQ\obj\Debug\LinQ.pdb
