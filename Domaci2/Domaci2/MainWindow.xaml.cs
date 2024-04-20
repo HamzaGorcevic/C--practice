@@ -225,7 +225,14 @@ namespace Domaci2
 
         private void OpenFile_Click(object sender, RoutedEventArgs e)
         {
-            Process.Start(writeDataPath);
+            if(File.Exists(writeDataPath))
+            {
+                Process.Start(writeDataPath);
+            }
+            else
+            {
+                MessageBox.Show("File doesnt exist");
+            }
         }
     }
 }
