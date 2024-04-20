@@ -1,0 +1,106 @@
+﻿<Window x:Class="Domaci2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Domaci2"
+        mc:Ignorable="d"
+        Title="Taxi Application" Height="450" Width="850">
+    <Window.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Foreground" Value="#333"/>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="TextWrapping" Value="Wrap"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Width" Value="100"/>
+            <Setter Property="Background" Value="#FDF1E7"/>
+            <Setter Property="Foreground" Value="#333"/>
+            <Setter Property="BorderBrush" Value="#F68D2E"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Padding" Value="5"/>
+        </Style>
+        <Style TargetType="ComboBox">
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Background" Value="#FDF1E7"/>
+            <Setter Property="Foreground" Value="#333"/>
+            <Setter Property="BorderBrush" Value="#F68D2E"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Padding" Value="5"/>
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="5 2 20 5"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="HorizontalAlignment" Value="Right"/>
+            <Setter Property="Background" Value="#F68D2E"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderBrush" Value="#F68D2E"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Padding" Value="10 5"/>
+        </Style>
+        <Style TargetType="StackPanel">
+            <Setter Property="Margin" Value="5"/>
+        </Style>
+        <Style TargetType="DataGridColumnHeader">
+            <Setter Property="Background" Value="#F68D2E"/>
+            <Setter Property="Foreground" Value="White"/>
+            
+        </Style>
+        <Style TargetType="DataGrid">
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Background" Value="#FDF1E7"/>
+            <Setter Property="Foreground" Value="#333"/>
+            <Setter Property="BorderBrush" Value="#F68D2E"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="RowBackground" Value="#FFF8E1"/>
+            <Setter Property="AlternatingRowBackground" Value="#FDF1E7"/>
+            <Setter Property="GridLinesVisibility" Value="All"/>
+        </Style>
+    </Window.Resources>
+    <Grid Background="#FDEBD0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="70*"/>
+            <ColumnDefinition Width="30*"/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal">
+            <TextBlock Text="Unesite novac:"/>
+            <TextBox x:Name="tbMoney"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <TextBlock Text="Unesite vrstu vozila:"/>
+            <ComboBox x:Name="cbType" SelectionChanged="CbType_SelectionChanged">
+                <ComboBoxItem Content="limuzina"/>
+                <ComboBoxItem Content="karavan"/>
+            </ComboBox>
+        </StackPanel>
+
+        <DataGrid x:Name="TaxiesDataGrid"  Grid.Row="2" AutoGenerateColumns="False" IsReadOnly="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Vrsta vozila" Binding="{Binding VehicleType}" Width="*"/>
+                <DataGridTextColumn Header="Naziv taksi" Binding="{Binding TaxiName}" Width="*"/>
+                <DataGridTextColumn Header="Cena po km" Binding="{Binding PricePerKm}" Width="*"/>
+                <DataGridTextColumn Header="Zauzetost" Binding="{Binding Availability}" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Button Grid.Row="1" Grid.Column="1" Content="Izračunaj" Click="CalculateButton_Click"/>
+
+        <StackPanel Grid.Row="2" Grid.Column="1">
+            <TextBlock>Data ce biti prikazana ispod:</TextBlock>
+            <TextBlock x:Name="tbCompany" Width="200" Height="100"/>
+            <TextBlock x:Name="tbTaxi" Width="200" Height="100"/>
+            <Button Margin="0 20 10 10" Click="OpenFile_Click">Open File</Button>
+        </StackPanel>
+    </Grid>
+</Window>

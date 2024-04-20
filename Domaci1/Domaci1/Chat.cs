@@ -153,7 +153,6 @@ namespace Domaci1
         }
 
         private void unesiNovogProgramera(UserType programmerType)
-
         {
             if (programmerType == UserType.Developer)
             {
@@ -162,8 +161,6 @@ namespace Domaci1
                 Developer newDev = new Developer(devData.Id, devData.Name, devData.Surname, devData.Salary);
                 developerList.Add(newDev);
                 OpenSettings();
-
-
             }
             else
             {
@@ -334,7 +331,6 @@ namespace Domaci1
 
             do
             {
-
                 Console.WriteLine("Unesite opciju:");
                 enterInput = Console.ReadLine();
 
@@ -360,14 +356,11 @@ namespace Domaci1
                         string msg = Console.ReadLine();
                         Developer sender = developerList.FirstOrDefault(obj=>obj.Id==id);
                         msg += $"\nPoruka je od developera {sender.Name}";
-
                         if (msg.StartsWith("feature/"))
                         {
                             foreach (var item in developerList)
                             {
                                 EvenetMsgHandler += item.printMessage;
-
-                                
                             }
                         }else if (msg.StartsWith("testing/"))
                         {
@@ -383,18 +376,13 @@ namespace Domaci1
                             {
                                 EvenetMsgHandler += item.printMessage;
                             }
-
                             foreach (var item in developerList)
                             {
                                 EvenetMsgHandler += item.printMessage;
-
                             }
-
                         }
-
                         EvenetMsgHandler(msg);
                         EvenetMsgHandler = null;
-
 
                     }
 
@@ -404,23 +392,18 @@ namespace Domaci1
 
                     Console.WriteLine("Uneli ste neispravan unos\n");
                 }
-
-
-
-
             }
             else if(enterOption == 3)
             {
                 return false;
             }
             return true;
-
         }
 
         public bool secondModal()
         {
             Console.WriteLine("\n UPRAVLJAJ PROGRAMERIMA \n");
-            Console.WriteLine("1-unos novog Developera\r\n2-izmena Developera\r\n3-brisanje Developera\r\n4-unos novog QA\r\n5-izmena QA\r\n6-brisanje QA\r\n7-Ispis\r\n0-nazad\\");
+            Console.WriteLine("1-unos novog Developera\r\n2-izmena Developera\r\n3-brisanje Developera\r\n4-unos novog QA\r\n5-izmena QA\r\n6-brisanje QA\r\n7-Ispis\r\n0-nazad\r\n");
             string input;
             int option;
             do
@@ -476,8 +459,6 @@ namespace Domaci1
             {
                 secondModal();
             }
-
-
         }
     }
 }

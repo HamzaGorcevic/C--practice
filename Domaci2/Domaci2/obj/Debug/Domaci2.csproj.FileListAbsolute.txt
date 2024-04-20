@@ -1,0 +1,15 @@
+C:\Users\gorce\source\repos\Domaci2\Domaci2\bin\Debug\Domaci2.exe.config
+C:\Users\gorce\source\repos\Domaci2\Domaci2\bin\Debug\Domaci2.exe
+C:\Users\gorce\source\repos\Domaci2\Domaci2\bin\Debug\Domaci2.pdb
+C:\Users\gorce\source\repos\Domaci2\Domaci2\obj\Debug\Domaci2.csproj.AssemblyReference.cache
+C:\Users\gorce\source\repos\Domaci2\Domaci2\obj\Debug\MainWindow.g.cs
+C:\Users\gorce\source\repos\Domaci2\Domaci2\obj\Debug\App.g.cs
+C:\Users\gorce\source\repos\Domaci2\Domaci2\obj\Debug\Domaci2_MarkupCompile.cache
+C:\Users\gorce\source\repos\Domaci2\Domaci2\obj\Debug\Domaci2_MarkupCompile.lref
+C:\Users\gorce\source\repos\Domaci2\Domaci2\obj\Debug\MainWindow.baml
+C:\Users\gorce\source\repos\Domaci2\Domaci2\obj\Debug\Domaci2.g.resources
+C:\Users\gorce\source\repos\Domaci2\Domaci2\obj\Debug\Domaci2.Properties.Resources.resources
+C:\Users\gorce\source\repos\Domaci2\Domaci2\obj\Debug\Domaci2.csproj.GenerateResource.cache
+C:\Users\gorce\source\repos\Domaci2\Domaci2\obj\Debug\Domaci2.csproj.CoreCompileInputs.cache
+C:\Users\gorce\source\repos\Domaci2\Domaci2\obj\Debug\Domaci2.exe
+C:\Users\gorce\source\repos\Domaci2\Domaci2\obj\Debug\Domaci2.pdb

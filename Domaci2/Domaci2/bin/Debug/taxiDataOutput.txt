@@ -1,0 +1,7 @@
+limuzina, Super, 5, zauzet
+limuzina, Taxi, 3.5, slobodan
+limuzina, Taxi, 5, zauzet
+Kompanija ce zaraditi 60 po kilometru 
+ Broj slobodnih taksija je 1
+Najeftini taxi je ' Taxi ' i precicete , 1714.28571428571km
+

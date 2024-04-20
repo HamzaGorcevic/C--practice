@@ -1,0 +1,16 @@
+limuzina,Super,5,-
+karavan,Pink,4,-
+karavan,Pink,5.5,-
+karavan,Super,5,-
+karavan,Super,5,+
+
+,-
+
+
+
+ravan,Super,4,-
+karavan,Maxi,3.5,-
+limuzina,Taxi,3.5,+
+karavan,Maxi,5,+
+limuzina,Taxi,5,-
++
