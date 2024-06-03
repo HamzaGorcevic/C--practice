@@ -1,0 +1,23 @@
+﻿<Window x:Class="Connecting_XAML_C_.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Connecting_XAML_C_"
+        mc:Ignorable="d"
+        DataContext="{Binding RelativeSource={RelativeSource Self}}"
+        
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <TextBox Text="{Binding Student.Name}"/>
+        <TextBlock Text="Student surname"/>
+        <TextBox Text="{Binding Student.LastName}"/>
+        <TextBlock Text="Student last name"/>
+        <TextBox Text="{Binding Student.Year}"/>
+        <TextBlock Text="Student year"/>
+        <TextBox Text="{Binding Student.Phone}"/>
+        <TextBlock Text="Student phone"/>
+        <Button Content="Go to the nex year" Click="NextYear_Click"/>
+
+    </StackPanel>
+</Window>

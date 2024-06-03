@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="parking_serviceModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="CENOVNIK">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" />
+          <Property Name="CenaSat" Type="float" />
+          <Property Name="CenaDan" Type="float" />
+          <Property Name="BrMesta" Type="int" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'parking_service.dbo.PARKING' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="PARKING">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" />
+          <Property Name="Vreme" Type="datetime" />
+          <Property Name="RegOznake" Type="varchar" MaxLength="255" />
+          <Property Name="idVlasnika" Type="int" />
+        </EntityType>
+        <EntityType Name="VLASNIK">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" />
+          <Property Name="Ime" Type="varchar" MaxLength="255" />
+          <Property Name="Prezime" Type="varchar" MaxLength="255" />
+        </EntityType>
+        <Association Name="fk_parking">
+          <End Role="VLASNIK" Type="Self.VLASNIK" Multiplicity="0..1" />
+          <End Role="PARKING" Type="Self.PARKING" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="VLASNIK">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="PARKING">
+              <PropertyRef Name="idVlasnika" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="parking_serviceModelStoreContainer">
+          <EntitySet Name="CENOVNIK" EntityType="Self.CENOVNIK" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="VLASNIK" EntityType="Self.VLASNIK" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="PARKING" EntityType="Self.PARKING" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [PARKING].[id] AS [id], 
+    [PARKING].[Vreme] AS [Vreme], 
+    [PARKING].[RegOznake] AS [RegOznake], 
+    [PARKING].[idVlasnika] AS [idVlasnika]
+    FROM [dbo].[PARKING] AS [PARKING]</DefiningQuery>
+          </EntitySet>
+          <AssociationSet Name="fk_parking" Association="Self.fk_parking">
+            <End Role="VLASNIK" EntitySet="VLASNIK" />
+            <End Role="PARKING" EntitySet="PARKING" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="parking_serviceModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="CENOVNIK">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" />
+          <Property Name="CenaSat" Type="Double" />
+          <Property Name="CenaDan" Type="Double" />
+          <Property Name="BrMesta" Type="Int32" />
+        </EntityType>
+        <EntityType Name="VLASNIK">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" />
+          <Property Name="Ime" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="Prezime" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="PARKINGs" Relationship="Self.fk_parking" FromRole="VLASNIK" ToRole="PARKING" />
+        </EntityType>
+        <EntityType Name="PARKING">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" />
+          <Property Name="Vreme" Type="DateTime" Precision="3" />
+          <Property Name="RegOznake" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="idVlasnika" Type="Int32" />
+          <NavigationProperty Name="VLASNIK" Relationship="Self.fk_parking" FromRole="PARKING" ToRole="VLASNIK" />
+        </EntityType>
+        <Association Name="fk_parking">
+          <End Role="VLASNIK" Type="Self.VLASNIK" Multiplicity="0..1" />
+          <End Role="PARKING" Type="Self.PARKING" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="VLASNIK">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="PARKING">
+              <PropertyRef Name="idVlasnika" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="parking_serviceEntities1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="CENOVNIKs" EntityType="Self.CENOVNIK" />
+          <EntitySet Name="VLASNIKs" EntityType="Self.VLASNIK" />
+          <EntitySet Name="PARKINGs" EntityType="Self.PARKING" />
+          <AssociationSet Name="fk_parking" Association="Self.fk_parking">
+            <End Role="VLASNIK" EntitySet="VLASNIKs" />
+            <End Role="PARKING" EntitySet="PARKINGs" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="parking_serviceModelStoreContainer" CdmEntityContainer="parking_serviceEntities1">
+          <EntitySetMapping Name="CENOVNIKs">
+            <EntityTypeMapping TypeName="parking_serviceModel.CENOVNIK">
+              <MappingFragment StoreEntitySet="CENOVNIK">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="CenaSat" ColumnName="CenaSat" />
+                <ScalarProperty Name="CenaDan" ColumnName="CenaDan" />
+                <ScalarProperty Name="BrMesta" ColumnName="BrMesta" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="VLASNIKs">
+            <EntityTypeMapping TypeName="parking_serviceModel.VLASNIK">
+              <MappingFragment StoreEntitySet="VLASNIK">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="Ime" ColumnName="Ime" />
+                <ScalarProperty Name="Prezime" ColumnName="Prezime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PARKINGs">
+            <EntityTypeMapping TypeName="parking_serviceModel.PARKING">
+              <MappingFragment StoreEntitySet="PARKING">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="Vreme" ColumnName="Vreme" />
+                <ScalarProperty Name="RegOznake" ColumnName="RegOznake" />
+                <ScalarProperty Name="idVlasnika" ColumnName="idVlasnika" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

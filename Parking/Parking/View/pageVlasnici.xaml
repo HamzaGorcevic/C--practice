@@ -1,0 +1,28 @@
+﻿<Page x:Class="Parking.View.pageVlasnici"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Parking.View"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="pageVlasnici"
+       DataContext="{Binding RelativeSource={RelativeSource Self}}"
+      
+      >
+
+
+    <StackPanel>
+
+        <StackPanel>
+            <TextBlock Text="Ime"></TextBlock>
+            <TextBox Text="{Binding NoviVlasnik.Ime}"/>
+            <TextBlock Text="Prezime"></TextBlock>
+            <TextBox Text="{Binding NoviVlasnik.Prezime}"/>
+            <TextBlock Text="Id"></TextBlock>
+            <TextBox Text="{Binding NoviVlasnik.id}"/>
+            <Button Click="Button_Click" Margin="20" Content="Dodaj"/>
+        </StackPanel>
+        <ComboBox Name="cbVlasnici" ItemsSource="{Binding Vlasnici}"/>
+    </StackPanel>
+</Page>
