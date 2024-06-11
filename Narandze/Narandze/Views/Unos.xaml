@@ -1,0 +1,22 @@
+﻿<Window x:Class="Narandze.Unos"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Narandze"
+        mc:Ignorable="d"
+        Title="Unos" Height="250" Width="240">
+    <Grid>
+
+        <StackPanel>
+            <TextBlock  x:Name="rows" Text="Unesi broj redova"/>
+            <TextBox x:Name="inputRows"/>
+            <TextBlock Name="columns" Text="Unesi broj kolona"/>
+            <TextBox x:Name="inputColumns"/>
+
+            <Button Click="Button_Click">Unesi</Button>
+        </StackPanel>
+
+
+    </Grid>
+</Window>

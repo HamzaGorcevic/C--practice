@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Game"
         mc:Ignorable="d"
-        Title="MainWindow" Height="800" ResizeMode="NoResize" Width="800">
+        Title="MainWindow" Height="500" ResizeMode="NoResize" Width="800">
     <Window.Resources>
         <Style TargetType="Button">
             <Setter Property="Margin" Value="10"></Setter>
@@ -17,10 +17,10 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="auto" />
         </Grid.RowDefinitions>
-        <Canvas Name="podloga" Focusable="True" KeyDown="podloga_KeyDown">
-        <Rectangle Canvas.Top="0" Canvas.Left="0" x:Name="igrac1" Width="30" Height="200" Fill="Black" />
-            <Rectangle Canvas.Top="300"  x:Name="igrac2" Width="30" Height="200" Fill="Gray" Canvas.Left="760"/>
-            <Ellipse x:Name="pak" Width="30" Height="30" Fill="Blue" Canvas.Left="30" Canvas.Top="20"  />
+        <Canvas Name="podloga" Height="460" Focusable="True" KeyDown="podloga_KeyDown">
+        <Rectangle Canvas.Top="0" Canvas.Left="0" x:Name="igrac1" Width="30" Height="150" Fill="Black" />
+            <Rectangle Canvas.Top="300"  x:Name="igrac2" Width="30" Height="150" Fill="Gray" Canvas.Left="760"/>
+            <Ellipse x:Name="pak" Width="30" Height="30" Fill="Blue" Canvas.Left="380" Canvas.Top="200"  />
         </Canvas>
 
         <StackPanel Grid.Row="1" HorizontalAlignment="Center" Orientation="Horizontal">

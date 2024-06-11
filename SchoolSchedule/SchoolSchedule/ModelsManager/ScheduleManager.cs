@@ -72,36 +72,30 @@ namespace SchoolSchedule.ModelsManager
 
                 if (lessonToCheck.StartTime <= existingLesson.StartTime && lessonToCheck.EndTime >= existingLesson.StartTime && lessonToCheck.EndTime <= existingLesson.EndTime)
                 {
-                    MessageBox.Show("1");
                     return false;
                 }
                 if (lessonToCheck.StartTime >= existingLesson.StartTime && lessonToCheck.StartTime <= existingLesson.EndTime)
                 {
-                    MessageBox.Show("2");
 
                     return false;
                 }
                 if (lessonToCheck.StartTime >= lessonToCheck.EndTime && lessonToCheck.EndTime <= existingLesson.EndTime)
                 {
-                    MessageBox.Show("3");
 
                     return false;
                 }
                 if (lessonToCheck.StartTime > TimeSpan.FromHours(12) && existingLesson.EndTime < TimeSpan.FromHours(12) && lessonToCheck.EndTime <= existingLesson.StartTime && lessonToCheck.EndTime <= existingLesson.EndTime)
                 {
-                    MessageBox.Show("4");
 
                     return false;
                 }
                 if (lessonToCheck.StartTime > TimeSpan.FromHours(12) && lessonToCheck.EndTime >= existingLesson.EndTime && lessonToCheck.EndTime < TimeSpan.FromHours(12))
                 {
-                    MessageBox.Show("101");
 
                     return false;
                 }
                 if (existingLesson.EndTime <= lessonToCheck.EndTime && lessonToCheck.StartTime <= existingLesson.EndTime)
                 {
-                    MessageBox.Show("110");
 
                     return false;
                 }

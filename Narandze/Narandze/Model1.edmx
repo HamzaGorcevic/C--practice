@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="narandzeModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'narandze.dbo.Narandze' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="Narandze">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CreateadAt" Type="date" />
+          <Property Name="Columns" Type="int" />
+          <Property Name="Rows" Type="int" />
+          <Property Name="Healthy" Type="int" />
+        </EntityType>
+        <EntityContainer Name="narandzeModelStoreContainer">
+          <EntitySet Name="Narandze" EntityType="Self.Narandze" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [Narandze].[id] AS [id], 
+    [Narandze].[CreateadAt] AS [CreateadAt], 
+    [Narandze].[Columns] AS [Columns], 
+    [Narandze].[Rows] AS [Rows], 
+    [Narandze].[Healthy] AS [Healthy]
+    FROM [dbo].[Narandze] AS [Narandze]</DefiningQuery>
+          </EntitySet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="narandzeModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Narandze">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CreateadAt" Type="DateTime" Precision="0" />
+          <Property Name="Columns" Type="Int32" />
+          <Property Name="Rows" Type="Int32" />
+          <Property Name="Healthy" Type="Int32" />
+        </EntityType>
+        <EntityContainer Name="narandzeEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Narandzes" EntityType="Self.Narandze" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="narandzeModelStoreContainer" CdmEntityContainer="narandzeEntities">
+          <EntitySetMapping Name="Narandzes">
+            <EntityTypeMapping TypeName="narandzeModel.Narandze">
+              <MappingFragment StoreEntitySet="Narandze">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="CreateadAt" ColumnName="CreateadAt" />
+                <ScalarProperty Name="Columns" ColumnName="Columns" />
+                <ScalarProperty Name="Rows" ColumnName="Rows" />
+                <ScalarProperty Name="Healthy" ColumnName="Healthy" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

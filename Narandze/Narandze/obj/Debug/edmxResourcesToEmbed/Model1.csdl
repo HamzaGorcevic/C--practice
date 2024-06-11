@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="narandzeModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Narandze">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CreateadAt" Type="DateTime" Precision="0" />
+    <Property Name="Columns" Type="Int32" />
+    <Property Name="Rows" Type="Int32" />
+    <Property Name="Healthy" Type="Int32" />
+  </EntityType>
+  <EntityContainer Name="narandzeEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Narandzes" EntityType="Self.Narandze" />
+  </EntityContainer>
+</Schema>

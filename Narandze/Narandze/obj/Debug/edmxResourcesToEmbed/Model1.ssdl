@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="narandzeModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'narandze.dbo.Narandze' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Narandze">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CreateadAt" Type="date" />
+    <Property Name="Columns" Type="int" />
+    <Property Name="Rows" Type="int" />
+    <Property Name="Healthy" Type="int" />
+  </EntityType>
+  <EntityContainer Name="narandzeModelStoreContainer">
+    <EntitySet Name="Narandze" EntityType="Self.Narandze" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Narandze].[id] AS [id], 
+    [Narandze].[CreateadAt] AS [CreateadAt], 
+    [Narandze].[Columns] AS [Columns], 
+    [Narandze].[Rows] AS [Rows], 
+    [Narandze].[Healthy] AS [Healthy]
+    FROM [dbo].[Narandze] AS [Narandze]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

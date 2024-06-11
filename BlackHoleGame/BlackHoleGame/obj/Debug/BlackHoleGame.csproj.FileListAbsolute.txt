@@ -1,0 +1,17 @@
+C:\Users\gorce\source\repos\BlackHoleGame\BlackHoleGame\bin\Debug\BlackHoleGame.exe.config
+C:\Users\gorce\source\repos\BlackHoleGame\BlackHoleGame\bin\Debug\BlackHoleGame.exe
+C:\Users\gorce\source\repos\BlackHoleGame\BlackHoleGame\bin\Debug\BlackHoleGame.pdb
+C:\Users\gorce\source\repos\BlackHoleGame\BlackHoleGame\obj\Debug\BlackHoleGame.csproj.AssemblyReference.cache
+C:\Users\gorce\source\repos\BlackHoleGame\BlackHoleGame\obj\Debug\MainWindow.g.cs
+C:\Users\gorce\source\repos\BlackHoleGame\BlackHoleGame\obj\Debug\Views\GravitaionSpeed.g.cs
+C:\Users\gorce\source\repos\BlackHoleGame\BlackHoleGame\obj\Debug\App.g.cs
+C:\Users\gorce\source\repos\BlackHoleGame\BlackHoleGame\obj\Debug\BlackHoleGame_MarkupCompile.cache
+C:\Users\gorce\source\repos\BlackHoleGame\BlackHoleGame\obj\Debug\BlackHoleGame_MarkupCompile.lref
+C:\Users\gorce\source\repos\BlackHoleGame\BlackHoleGame\obj\Debug\MainWindow.baml
+C:\Users\gorce\source\repos\BlackHoleGame\BlackHoleGame\obj\Debug\Views\GravitaionSpeed.baml
+C:\Users\gorce\source\repos\BlackHoleGame\BlackHoleGame\obj\Debug\BlackHoleGame.g.resources
+C:\Users\gorce\source\repos\BlackHoleGame\BlackHoleGame\obj\Debug\BlackHoleGame.Properties.Resources.resources
+C:\Users\gorce\source\repos\BlackHoleGame\BlackHoleGame\obj\Debug\BlackHoleGame.csproj.GenerateResource.cache
+C:\Users\gorce\source\repos\BlackHoleGame\BlackHoleGame\obj\Debug\BlackHoleGame.csproj.CoreCompileInputs.cache
+C:\Users\gorce\source\repos\BlackHoleGame\BlackHoleGame\obj\Debug\BlackHoleGame.exe
+C:\Users\gorce\source\repos\BlackHoleGame\BlackHoleGame\obj\Debug\BlackHoleGame.pdb
