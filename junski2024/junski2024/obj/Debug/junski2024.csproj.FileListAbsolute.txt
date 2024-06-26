@@ -1,0 +1,15 @@
+C:\Users\gorce\source\repos\junski2024\junski2024\bin\Debug\junski2024.exe.config
+C:\Users\gorce\source\repos\junski2024\junski2024\bin\Debug\junski2024.exe
+C:\Users\gorce\source\repos\junski2024\junski2024\bin\Debug\junski2024.pdb
+C:\Users\gorce\source\repos\junski2024\junski2024\obj\Debug\junski2024.csproj.AssemblyReference.cache
+C:\Users\gorce\source\repos\junski2024\junski2024\obj\Debug\MainWindow.g.cs
+C:\Users\gorce\source\repos\junski2024\junski2024\obj\Debug\App.g.cs
+C:\Users\gorce\source\repos\junski2024\junski2024\obj\Debug\junski2024_MarkupCompile.cache
+C:\Users\gorce\source\repos\junski2024\junski2024\obj\Debug\junski2024_MarkupCompile.lref
+C:\Users\gorce\source\repos\junski2024\junski2024\obj\Debug\MainWindow.baml
+C:\Users\gorce\source\repos\junski2024\junski2024\obj\Debug\junski2024.g.resources
+C:\Users\gorce\source\repos\junski2024\junski2024\obj\Debug\junski2024.Properties.Resources.resources
+C:\Users\gorce\source\repos\junski2024\junski2024\obj\Debug\junski2024.csproj.GenerateResource.cache
+C:\Users\gorce\source\repos\junski2024\junski2024\obj\Debug\junski2024.csproj.CoreCompileInputs.cache
+C:\Users\gorce\source\repos\junski2024\junski2024\obj\Debug\junski2024.exe
+C:\Users\gorce\source\repos\junski2024\junski2024\obj\Debug\junski2024.pdb

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BenziskaStanicaModelStoreContainer" CdmEntityContainer="BenziskaStanicaEntities">
+    <EntitySetMapping Name="Automobils">
+      <EntityTypeMapping TypeName="BenziskaStanicaModel.Automobil">
+        <MappingFragment StoreEntitySet="Automobil">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="rezervoar" ColumnName="rezervoar" />
+          <ScalarProperty Name="gorivo" ColumnName="gorivo" />
+          <ScalarProperty Name="idPumpe" ColumnName="idPumpe" />
+          <ScalarProperty Name="idBenziske" ColumnName="idBenziske" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Autoputs">
+      <EntityTypeMapping TypeName="BenziskaStanicaModel.Autoput">
+        <MappingFragment StoreEntitySet="Autoput">
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Benzinskas">
+      <EntityTypeMapping TypeName="BenziskaStanicaModel.Benzinska">
+        <MappingFragment StoreEntitySet="Benzinska">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="idAutoput" ColumnName="idAutoput" />
+          <ScalarProperty Name="idAutomobila" ColumnName="idAutomobila" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Pumpas">
+      <EntityTypeMapping TypeName="BenziskaStanicaModel.Pumpa">
+        <MappingFragment StoreEntitySet="Pumpa">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="idBenzinske" ColumnName="idBenzinske" />
+          <ScalarProperty Name="idAutomobila" ColumnName="idAutomobila" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

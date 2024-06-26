@@ -1,0 +1,15 @@
+C:\Users\gorce\source\repos\BaraIspit\BaraIspit\bin\Debug\BaraIspit.exe.config
+C:\Users\gorce\source\repos\BaraIspit\BaraIspit\bin\Debug\BaraIspit.exe
+C:\Users\gorce\source\repos\BaraIspit\BaraIspit\bin\Debug\BaraIspit.pdb
+C:\Users\gorce\source\repos\BaraIspit\BaraIspit\obj\Debug\BaraIspit.csproj.AssemblyReference.cache
+C:\Users\gorce\source\repos\BaraIspit\BaraIspit\obj\Debug\MainWindow.g.cs
+C:\Users\gorce\source\repos\BaraIspit\BaraIspit\obj\Debug\App.g.cs
+C:\Users\gorce\source\repos\BaraIspit\BaraIspit\obj\Debug\BaraIspit_MarkupCompile.cache
+C:\Users\gorce\source\repos\BaraIspit\BaraIspit\obj\Debug\BaraIspit_MarkupCompile.lref
+C:\Users\gorce\source\repos\BaraIspit\BaraIspit\obj\Debug\MainWindow.baml
+C:\Users\gorce\source\repos\BaraIspit\BaraIspit\obj\Debug\BaraIspit.g.resources
+C:\Users\gorce\source\repos\BaraIspit\BaraIspit\obj\Debug\BaraIspit.Properties.Resources.resources
+C:\Users\gorce\source\repos\BaraIspit\BaraIspit\obj\Debug\BaraIspit.csproj.GenerateResource.cache
+C:\Users\gorce\source\repos\BaraIspit\BaraIspit\obj\Debug\BaraIspit.csproj.CoreCompileInputs.cache
+C:\Users\gorce\source\repos\BaraIspit\BaraIspit\obj\Debug\BaraIspit.exe
+C:\Users\gorce\source\repos\BaraIspit\BaraIspit\obj\Debug\BaraIspit.pdb

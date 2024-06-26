@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BenziskaStanicaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Automobil">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="rezervoar" Type="Int32" />
+    <Property Name="gorivo" Type="Int32" />
+    <Property Name="idPumpe" Type="Int32" />
+    <Property Name="idBenziske" Type="Int32" />
+    <NavigationProperty Name="Benzinska" Relationship="Self.FK__Automobil__idBen__440B1D61" FromRole="Automobil" ToRole="Benzinska" />
+    <NavigationProperty Name="Pumpa" Relationship="Self.FK__Automobil__idPum__3F466844" FromRole="Automobil" ToRole="Pumpa" />
+    <NavigationProperty Name="Benzinskas" Relationship="Self.FK__Benzinska__idAut__412EB0B6" FromRole="Automobil" ToRole="Benzinska" />
+    <NavigationProperty Name="Pumpas" Relationship="Self.FK__Pumpa__idAutomob__4222D4EF" FromRole="Automobil" ToRole="Pumpa" />
+  </EntityType>
+  <EntityType Name="Autoput">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Benzinskas" Relationship="Self.FK__Benzinska__idAut__398D8EEE" FromRole="Autoput" ToRole="Benzinska" />
+  </EntityType>
+  <EntityType Name="Benzinska">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idAutoput" Type="Int32" />
+    <Property Name="idAutomobila" Type="Int32" />
+    <NavigationProperty Name="Automobils" Relationship="Self.FK__Automobil__idBen__440B1D61" FromRole="Benzinska" ToRole="Automobil" />
+    <NavigationProperty Name="Automobil" Relationship="Self.FK__Benzinska__idAut__412EB0B6" FromRole="Benzinska" ToRole="Automobil" />
+    <NavigationProperty Name="Autoput" Relationship="Self.FK__Benzinska__idAut__398D8EEE" FromRole="Benzinska" ToRole="Autoput" />
+    <NavigationProperty Name="Pumpas" Relationship="Self.FK__Pumpa__idBenzins__3C69FB99" FromRole="Benzinska" ToRole="Pumpa" />
+  </EntityType>
+  <EntityType Name="Pumpa">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idBenzinske" Type="Int32" />
+    <Property Name="idAutomobila" Type="Int32" />
+    <NavigationProperty Name="Automobils" Relationship="Self.FK__Automobil__idPum__3F466844" FromRole="Pumpa" ToRole="Automobil" />
+    <NavigationProperty Name="Automobil" Relationship="Self.FK__Pumpa__idAutomob__4222D4EF" FromRole="Pumpa" ToRole="Automobil" />
+    <NavigationProperty Name="Benzinska" Relationship="Self.FK__Pumpa__idBenzins__3C69FB99" FromRole="Pumpa" ToRole="Benzinska" />
+  </EntityType>
+  <Association Name="FK__Automobil__idBen__440B1D61">
+    <End Role="Benzinska" Type="Self.Benzinska" Multiplicity="0..1" />
+    <End Role="Automobil" Type="Self.Automobil" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Benzinska">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Automobil">
+        <PropertyRef Name="idBenziske" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Automobil__idPum__3F466844">
+    <End Role="Pumpa" Type="Self.Pumpa" Multiplicity="0..1" />
+    <End Role="Automobil" Type="Self.Automobil" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Pumpa">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Automobil">
+        <PropertyRef Name="idPumpe" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Benzinska__idAut__412EB0B6">
+    <End Role="Automobil" Type="Self.Automobil" Multiplicity="0..1" />
+    <End Role="Benzinska" Type="Self.Benzinska" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Automobil">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Benzinska">
+        <PropertyRef Name="idAutomobila" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Pumpa__idAutomob__4222D4EF">
+    <End Role="Automobil" Type="Self.Automobil" Multiplicity="0..1" />
+    <End Role="Pumpa" Type="Self.Pumpa" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Automobil">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Pumpa">
+        <PropertyRef Name="idAutomobila" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Benzinska__idAut__398D8EEE">
+    <End Role="Autoput" Type="Self.Autoput" Multiplicity="0..1" />
+    <End Role="Benzinska" Type="Self.Benzinska" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Autoput">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Benzinska">
+        <PropertyRef Name="idAutoput" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Pumpa__idBenzins__3C69FB99">
+    <End Role="Benzinska" Type="Self.Benzinska" Multiplicity="0..1" />
+    <End Role="Pumpa" Type="Self.Pumpa" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Benzinska">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Pumpa">
+        <PropertyRef Name="idBenzinske" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="BenziskaStanicaEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Automobils" EntityType="Self.Automobil" />
+    <EntitySet Name="Autoputs" EntityType="Self.Autoput" />
+    <EntitySet Name="Benzinskas" EntityType="Self.Benzinska" />
+    <EntitySet Name="Pumpas" EntityType="Self.Pumpa" />
+    <AssociationSet Name="FK__Automobil__idBen__440B1D61" Association="Self.FK__Automobil__idBen__440B1D61">
+      <End Role="Benzinska" EntitySet="Benzinskas" />
+      <End Role="Automobil" EntitySet="Automobils" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Automobil__idPum__3F466844" Association="Self.FK__Automobil__idPum__3F466844">
+      <End Role="Pumpa" EntitySet="Pumpas" />
+      <End Role="Automobil" EntitySet="Automobils" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Benzinska__idAut__412EB0B6" Association="Self.FK__Benzinska__idAut__412EB0B6">
+      <End Role="Automobil" EntitySet="Automobils" />
+      <End Role="Benzinska" EntitySet="Benzinskas" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Pumpa__idAutomob__4222D4EF" Association="Self.FK__Pumpa__idAutomob__4222D4EF">
+      <End Role="Automobil" EntitySet="Automobils" />
+      <End Role="Pumpa" EntitySet="Pumpas" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Benzinska__idAut__398D8EEE" Association="Self.FK__Benzinska__idAut__398D8EEE">
+      <End Role="Autoput" EntitySet="Autoputs" />
+      <End Role="Benzinska" EntitySet="Benzinskas" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Pumpa__idBenzins__3C69FB99" Association="Self.FK__Pumpa__idBenzins__3C69FB99">
+      <End Role="Benzinska" EntitySet="Benzinskas" />
+      <End Role="Pumpa" EntitySet="Pumpas" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

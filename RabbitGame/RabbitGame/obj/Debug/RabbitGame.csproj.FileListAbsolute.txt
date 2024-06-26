@@ -1,0 +1,15 @@
+C:\Users\gorce\source\repos\RabbitGame\RabbitGame\bin\Debug\RabbitGame.exe.config
+C:\Users\gorce\source\repos\RabbitGame\RabbitGame\bin\Debug\RabbitGame.exe
+C:\Users\gorce\source\repos\RabbitGame\RabbitGame\bin\Debug\RabbitGame.pdb
+C:\Users\gorce\source\repos\RabbitGame\RabbitGame\obj\Debug\RabbitGame.csproj.AssemblyReference.cache
+C:\Users\gorce\source\repos\RabbitGame\RabbitGame\obj\Debug\MainWindow.g.cs
+C:\Users\gorce\source\repos\RabbitGame\RabbitGame\obj\Debug\App.g.cs
+C:\Users\gorce\source\repos\RabbitGame\RabbitGame\obj\Debug\RabbitGame_MarkupCompile.cache
+C:\Users\gorce\source\repos\RabbitGame\RabbitGame\obj\Debug\RabbitGame_MarkupCompile.lref
+C:\Users\gorce\source\repos\RabbitGame\RabbitGame\obj\Debug\MainWindow.baml
+C:\Users\gorce\source\repos\RabbitGame\RabbitGame\obj\Debug\RabbitGame.g.resources
+C:\Users\gorce\source\repos\RabbitGame\RabbitGame\obj\Debug\RabbitGame.Properties.Resources.resources
+C:\Users\gorce\source\repos\RabbitGame\RabbitGame\obj\Debug\RabbitGame.csproj.GenerateResource.cache
+C:\Users\gorce\source\repos\RabbitGame\RabbitGame\obj\Debug\RabbitGame.csproj.CoreCompileInputs.cache
+C:\Users\gorce\source\repos\RabbitGame\RabbitGame\obj\Debug\RabbitGame.exe
+C:\Users\gorce\source\repos\RabbitGame\RabbitGame\obj\Debug\RabbitGame.pdb
